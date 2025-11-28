@@ -2,8 +2,9 @@
   "name": "ffxiv-img-grabber",
   "author": "mAngeloDev",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small library to extract Warrior of Light profile and body pictures from FFXIV Lodestone.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -11,7 +12,7 @@
     "cheerio": "^1.1.2"
   },
   "devDependencies": {
+    "@types/node": "^24.10.1",
     "typescript": "^5.5.3"
-  },
-  "private": true
+  }
 }
